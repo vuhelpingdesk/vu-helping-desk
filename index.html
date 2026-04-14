@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VU Helping Desk | Your Success Partner</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #1abc9c;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        /* Main Content */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 40px 0;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            flex: 1;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            min-width: 250px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            color: #2980b9;
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        /* Button Style */
+        .btn {
+            display: inline-block;
+            background: #1abc9c;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background: #16a085;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VU Helping Desk</h1>
+        <p>Providing Quality Resources for VU Students</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Past Papers</a>
+        <a href="#">Assignments</a>
+        <a href="#">Quizzes</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to Your Study Hub</h1>
+        <p>Find all Virtual University handouts, solutions, and notes in one place.</p>
+        <a href="#" class="btn">Explore Now</a>
+    </div>
+
+    <div class="container">
+        <div class="card-container">
+            <div class="card">
+                <h3>Latest Assignments</h3>
+                <p>Download the latest assignment solutions with 100% accuracy.</p>
+                <a href="#" class="btn">Download</a>
+            </div>
+
+            <div class="card">
+                <h3>Grand Quiz Files</h3>
+                <p>Prepare for your quizzes with our updated mega files.</p>
+                <a href="#" class="btn">View Files</a>
+            </div>
+
+            <div class="card">
+                <h3>Past Papers</h3>
+                <p>Mid-term and Final-term past papers to help you ace exams.</p>
+                <a href="#" class="btn">Get Papers</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 VU Helping Desk - Created with ❤️ for Students</p>
+    </footer>
+
+</body>
+</html>
